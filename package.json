@@ -1,0 +1,74 @@
+{
+  "_from": "alfred-mvns",
+  "_id": "alfred-mvns@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-sIU86MKeGMZLXH98mRrKAgm3CBGtmtqBuWiIwO7K9xgDaHoOqii9R3SsKOCcq4mlY+c+brxIkSnL8J68h2mYCw==",
+  "_location": "/alfred-mvns",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "alfred-mvns",
+    "name": "alfred-mvns",
+    "escapedName": "alfred-mvns",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "type": "module",
+  "_resolved": "https://registry.npmjs.org/alfred-mvns/-/alfred-mvns-1.0.2.tgz",
+  "_shasum": "81817906cd31d0e258742a4bb2d8c050e5325ec6",
+  "_spec": "alfred-mvns",
+  "_where": "/Users/hanwen/workspace/projects-os/alfred-mvns",
+  "author": {
+    "name": "hanwen.huang",
+    "email": "xfslove@gmail.com",
+    "url": "https://github.com/xfslove/alfred-mvns"
+  },
+  "bugs": {
+    "url": "https://github.com/xfslove/alfred-mvns/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "alfy": "^1.0.0",
+    "dateformat": "^5.0.3"
+  },
+  "deprecated": false,
+  "description": "Alfred 3 workflow to search for java libraries at central repo",
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "*",
+    "xo": "*"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "homepage": "https://github.com/xfslove/alfred-mvns#readme",
+  "keywords": [
+    "mvn",
+    "alfred",
+    "alfred-workflow",
+    "workflow",
+    "alfy"
+  ],
+  "license": "MIT",
+  "name": "alfred-mvns",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xfslove/alfred-mvns.git"
+  },
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup",
+    "test": "xo && ava"
+  },
+  "version": "1.0.2"
+}
